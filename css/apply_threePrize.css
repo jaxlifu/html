@@ -1,0 +1,194 @@
+@charset 'utf-8';
+
+*
+{
+    margin: 0;
+    margin: auto;
+}
+body
+{
+    padding: 0;
+
+    background-color: #fff;
+}
+ul li
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+}
+img
+{
+    overflow: hidden;
+}
+input
+{
+    border: none;
+    outline: medium;
+
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+
+html,
+body
+{
+    height: 100%;
+
+    background-color: #180066;
+}
+
+
+
+.select_division
+{
+    overflow: auto;
+
+    width: 640px;
+    height: 100%;
+
+    background: transparent url(../img/apply_bck.jpg) no-repeat center;
+    background-size: cover;
+}
+.select_step
+{
+    width: 615px;
+    height: 15%;
+
+    background: transparent url(../img/3.png) no-repeat center;
+}
+
+
+/*内容模块*/
+.ticket
+{
+    width: 615px;
+    height: 530px;
+
+    background: transparent url(../img/ticket_bck.png) no-repeat center;
+}
+
+
+.user_img
+{
+    float: left;
+
+    width: 40px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 125px;
+
+    border-radius: 100%;
+    background: transparent url(../img/user_img.png) no-repeat center;
+    background-size: cover;
+}
+.user_ticket
+{
+    font-family: '微软雅黑';
+    font-size: 24px;
+    line-height: 40px;
+
+    float: left;
+    overflow: hidden;
+
+    width: 400px;
+    height: 40px;
+    margin-top: 30px;
+
+    text-indent: 20px;
+    letter-spacing: 1px;
+
+    color: #fffbae;
+}
+
+.submit
+{
+    font-size: 28px;
+    line-height: 80px;
+
+    width: 550px;
+    height: 80px;
+    margin-top: 50px;
+
+    text-align: center;
+    letter-spacing: 5px;
+
+    color: black;
+    border-radius: 10px;
+    background-color: #fff573;
+    box-shadow: 0 0 2px 5px black;
+}
+
+.footer
+{
+    font-family: '微软雅黑';
+    font-size: 24px;
+    line-height: 50px;
+
+    width: 100%;
+    height: 50px;
+    margin-top: 40px;
+
+    text-align: center;
+    text-decoration: underline;
+    letter-spacing: 1px;
+
+    color: #fff573;
+}
+
+
+.sling
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: none;
+
+    width: 640px;
+    height: 100%;
+
+    opacity: .9;  
+    background-color: #000;
+}
+.rule
+{
+    position: absolute;
+    top: 0;
+    left: 30px;
+
+    display: none;
+    overflow: hidden;
+
+    width: 580px;
+    height: 100%;
+}
+.rule_close
+{
+    float: right;
+
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+
+    background: transparent url(../img/close_bck.png) no-repeat center;
+}
+
+.rule_content
+{
+    clear: both;
+
+    width: 580px;
+}
+.rule_content p
+{
+    font-family: '微软雅黑';
+    font-size: 24px;
+    line-height: 50px;
+
+    letter-spacing: 1px;
+
+    color: #fff;
+}

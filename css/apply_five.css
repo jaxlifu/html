@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+*{margin: 0; margin: auto;}
+body{padding: 0; background-color:#FFFFFF;}
+ul li{list-style: none;}
+a{text-decoration: none;}
+img{overflow: hidden;}
+input{border: none; outline: medium;  -webkit-tap-highlight-color: rgba(0,0,0,0);}
+
+
+html,body{height: 100%;background-color: #180066;}
+
+
+
+.select_division{overflow: auto; width: 640px;height: 100%;background:transparent url(../img/apply_bck.jpg) no-repeat center; background-size: cover;}
+.select_step{width: 615px;height:15%;background: transparent url(../img/5.png) no-repeat center;}
+
+
+/*内容模块*/
+.ticket{width: 577px;height:403px; margin-top: -150px; background: transparent url(../img/success_bck.png) no-repeat center; }
+.ticket_intro{width: 577px;height:auto; margin-top: 20px;}
+.ticket_intro p{margin-top: 10px; color: #FFFFFF; font-family: "微软雅黑"; font-size: 22px; text-align: center;}
+
+
+/*底部*/
+.footer{width: 600px; margin-top: 30px;}
+.submit{width:260px; height:70px;text-align: center; line-height: 70px; color: black; font-size:28px; letter-spacing: 5px;  background-color: #fff573; box-shadow: 0px 0px 2px 5px black; border-radius: 10px;}
+.left{float: left;}
+.right{float: right;}

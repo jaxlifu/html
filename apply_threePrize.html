@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>我要报名</title>
+    <script type="text/javascript">
+			var wind_width = parseInt(window.screen.width);
+			var mobile_wi = wind_width / 640;
+			var isAndroid = RegExp("Android").test(navigator.userAgent);
+			if (isAndroid) {
+				document.write('<meta name="viewport" content="width=640, minimum-scale = ' + mobile_wi + ', maximum-scale = ' + mobile_wi + ', target-densitydpi=device-dpi">');
+			} else {
+				document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');
+			}
+
+    </script>
+
+    <link rel="stylesheet" href="css/apply_threePrize.css"/>
+    <script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+
+</head>
+
+<body>
+<article class="select_division">
+    <section style="width: 100%;height: 3%;"></section>
+    <section class="select_step"></section>
+    <section class="ticket">
+        <div class="user_info">
+            <!--<div class="user_img"></div>
+            <div class="user_ticket"><span class="user_name">富力乌拉乌拉</span>获得一张抽奖券</div>-->
+            <div style="clear: both;"></div>
+        </div>
+    </section>
+
+    <section class="submit">兑换场次</section>
+
+    <section class="footer">活动规则?</section>
+
+</article>
+<article class="sling"></article>
+<article class="rule">
+    <div class="rule_close"></div>
+    <div class="rule_content">
+        <p>（1）为保障用户权益，针对不当手段参加活动者，活动主办方有权在不事先通知的前提下，取消活动参与者获得奖励或参与本活动的资格;</p>
+        <p>（2）活动主办方不对因网络传输原因而导致参加者提交的信息错误或延误承担任何责任。</p>
+        <p>（3）在法律允许的范围内，活动主办方对本次活动拥有最终解释权。如遇不可抗力因素，活动主办方拥有权利取消本次活动。</p>
+        <p>（4）以上奖项所涉及的相关税款由中奖者个人自理。</p>
+        <p>活动热线：<a href="javascript:" class="tel_click" style="color: #FFFFFF;">010-111111</a></p>
+        <p>活动主办单位： 深圳艾斯图网络科技有限公司</p>
+        <p>活动最终解释权归深圳艾斯图网络科技有限公司所有</p>
+    </div>
+</article>
+</body>
+<script type="text/javascript" src="js/include.js"></script>
+<script type="text/javascript" src="js/apply_threePrize.js"></script>
+
+</html>

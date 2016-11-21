@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>我要报名</title>
+	<script type="text/javascript">
+			var wind_width = parseInt(window.screen.width);
+			var mobile_wi = wind_width / 640;
+			var isAndroid = RegExp("Android").test(navigator.userAgent);
+			if (isAndroid) {
+				document.write('<meta name="viewport" content="width=640, minimum-scale = ' + mobile_wi + ', maximum-scale = ' + mobile_wi + ', target-densitydpi=device-dpi">');
+			} else {
+				document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');
+			}
+		</script>
+
+	<link rel="stylesheet" href="css/apply_two.css" />
+	<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+
+</head>
+
+<body>
+<article class="select_division">
+	<section style="width: 100%;height: 3%;"></section>
+	<section class="select_step"></section>
+
+	<section class="select_content">
+		<p>参赛意向人员较多，系统是随机抽取参赛资格额的，提交意向越早的用户获取参赛资格率越高哦~</p>
+		<div class="input_text">
+			<input type="text" id="name" placeholder="请填写真实姓名" />
+		</div>
+		<div class="input_text">
+			<input type="text" id="tel" placeholder="请填手机号" />
+		</div>
+		<div class="input_text">
+			<input style="float: left; margin-left: 20px;width: 300px;" type="text" id="code" placeholder="请输入验证码" />
+			<div class="click_yzm" name="0">获取验证码</div>
+		</div>
+		<div class="input_text">
+			<input type="text" id="id_card" placeholder="请填写身份证号码" />
+		</div>
+		<div class="prompt"></div>
+	</section>
+
+	<section class="submit">提交信息,抽取参赛资格</section>
+
+</article>
+
+<!--宝箱中奖-->
+<article class="sling" style="display: none; position: absolute; z-index: 1; left: 0; top: 0; width: 100%; height: 100%; background-color: #000000; opacity: 0.3; "></article>
+<article class="sling_zhong" style="display: none;width:580px; height: 460px; position: absolute; z-index: 2; left: 50%; top: 50%; margin-left: -290px; margin-top: -230px;  ">
+	<img src="img/zhongjiang.gif" />
+</article>
+<article class="sling_buzhong" style="display: none;width:580px; height: 460px; position: absolute; z-index: 2; left: 50%; top: 50%; margin-left: -290px; margin-top: -230px;  ">
+	<img src="img/zhongjiang1.gif" />
+</article>
+
+</body>
+<script type="text/javascript" src="js/include.js"></script>
+<script type="text/javascript" src="js/apply_two.js"></script>
+
+</html>

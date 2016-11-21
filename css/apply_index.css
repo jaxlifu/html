@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+*{margin: 0; margin: auto;}
+body{padding: 0; background-color:#FFFFFF;}
+ul li{list-style: none;}
+a{text-decoration: none;}
+img{overflow: hidden;}
+input{border: none; outline: medium;  -webkit-tap-highlight-color: rgba(0,0,0,0);}
+
+
+html,body{height: 100%;background-color: #180066;}
+
+
+
+.select_division{overflow: auto; width: 640px;height: 100%;background:transparent url(../img/apply_bck.jpg) no-repeat center; background-size: cover;}
+
+
+
+/*内容模块*/
+.apply_index{width: 599px;height:357px; margin-top: -100px; background: transparent url(../img/index_bck.png) no-repeat center;}
+
+/*电视机*/
+.vedio_bck{width: 624px; height: 402px; background: transparent url(../img/vedio.png) no-repeat center;}
+
+.vedio{width: 572px;height: 322px; margin-top: 18px; border:10px solid #000000; background: transparent url(../img/play_button.png) no-repeat center;  background-color: #1a1a1a; }
+
+/*底部*/
+.apply_intro{width: 599px; height: auto;}
+.apply_intro p{margin-top: 10px; text-align: center; letter-spacing: 1px; color: #FFFFFF; font-family: "微软雅黑"; font-size: 22px; }
+
+
+.submit{ width:550px; height:80px; margin-top: 30px; text-align: center; line-height: 80px; color: black; font-size:28px; letter-spacing: 5px;  background-color: #fff573; box-shadow: 0px 0px 2px 5px black; border-radius: 10px;}

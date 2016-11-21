@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+*{margin: 0; margin: auto;}
+body{padding: 0; background-color:#FFFFFF;}
+ul li{list-style: none;}
+a{text-decoration: none;}
+img{overflow: hidden;}
+input{border: none; outline: medium;  -webkit-tap-highlight-color: rgba(0,0,0,0);}
+
+
+html,body{height: 100%;background-color: #180066;}
+
+
+
+.select_division{overflow: auto; width: 640px;height: 100%;background:transparent url(../img/apply_bck.jpg) no-repeat center; background-size: cover;}
+.select_step{width: 615px;height:15%;background: transparent url(../img/2.png) no-repeat center;}
+
+
+/*内容模块*/
+.select_content{ width: 625px; height:auto; margin-top: 45px;}
+.select_content p{width: 580px; text-align: center; line-height: 40px; color: #FFFFFF; font-family: "微软雅黑"; font-size: 22px;}
+
+.input_text{width: 550px;height: 70px; margin-top: 50px; text-align: center; border-radius: 10px; background-color: #FFFFFF;}
+.input_text input{width: 500px; height: 50px; margin-top: 5px; line-height: 50px; font-size: 26px; font-family: "微软雅黑"; color: #cccccc;}
+
+.click_yzm{float: right; margin-right: 15px; width:140px; height: 50px; margin-top: 10px; line-height: 50px; font-size: 22px; font-family: "微软雅黑"; color: #000000; border-radius: 10px;background-color:#fff573; }
+
+.prompt{width: 550px;height: 40px; line-height: 40px; text-align: center; font-size: 22px; font-family: "微软雅黑"; color: red;  }
+
+.submit{ width:550px; height:80px; margin-top: 30px; text-align: center; line-height: 80px; color: black; font-size:28px; letter-spacing: 5px;  background-color: #fff573; box-shadow: 0px 0px 2px 5px black; border-radius: 10px;}

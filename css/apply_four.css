@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+*{margin: 0; margin: auto;}
+body{padding: 0; background-color:#FFFFFF;}
+ul li{list-style: none;}
+a{text-decoration: none;}
+img{overflow: hidden;}
+input{-webkit-tap-highlight-color: rgba(0,0,0,0);}
+
+
+html,body{height: 100%;background-color: #180066;}
+
+
+
+.select_division{width:640px;height: 100%;background:transparent url(../img/apply_bck.jpg) no-repeat center; background-size: cover;}
+
+.select_step{width: 615px;height:15%;background: transparent url(../img/4.png) no-repeat center;}
+
+
+
+.select_content{overflow: auto; width: 625px; height: 72%;}
+
+.select_content fieldset{width: 540px;  margin-top: 20px; border: none; border-top: 1px solid #FFFFFF;}
+.select_content fieldset legend{letter-spacing: 2px; font-size: 32px; font-weight: bold; font-family: "微软雅黑"; color: #FFFFFF;}
+
+.address_list{position: relative; width: 583px; height: 121px; margin-top: 30px; background-color: #2b0260; border-radius: 15px;}
+.area{width:520px;height: 60px; text-indent: 50px; line-height: 70px; letter-spacing: 2px; font-weight: bold; font-family: "微软雅黑"; color: #FFFFFF; font-size:24px;}
+.address_list_bottom{width: 520px;height: 30px; margin-top: 10px;}
+.timer{float: left; width: 250px;height: 30px; text-align: center; line-height: 30px; font-family: "微软雅黑"; font-size: 20px; color:#6b3cd3 ; background-color: #FFFFFF; border-radius: 15px;}
+.toal{float: right; width: 200px;height: 30px; text-indent: 50px; line-height: 30px; font-family: "微软雅黑"; font-size: 24px; color:#FFFFFF ; background: transparent url(../img/toal_ico.png) no-repeat 0px center ; }
+
+.sling_state{position: absolute; left: 0; top: 0; width: 583px; height: 121px; background:transparent url(../img/select_end.png) no-repeat center; background-size: cover;}
+.sling_select{float: right; width:42px; height: 42px; margin-right: -10px; margin-top: -10px; background: transparent url(../img/click_division.png) no-repeat center;border-radius: 100%; }
+
+
+
+
+
+.select_list{width: 296px;height: auto; margin-top: 20px;}
+.select_list:nth-of-type(odd){float: left;}
+.select_list:nth-of-type(even){float: right; margin-right: 10px; }
+
+
+.list_top{width: 296px;height: 175px; background:transparent url(../img/test.png) no-repeat center; background-size: cover; border-radius: 15px;}
+
+.list_click{width: 296px;height: 175px; background:transparent url(../img/click_bck.png) no-repeat center; background-size: cover;}
+.click_division{float: right; margin-right: -10px; margin-top: -10px; width:42px; height: 42px; background: transparent url(../img/click_division.png) no-repeat center;}
+
+.list_bottom{width: 296px; height: 35px; margin-top: 10px;}
+.address{float: left; width: 160px; height: 35px; line-height: 35px; text-indent: 10px; letter-spacing: 1px; font-size: 24px; color: #FFFFFF; font-family: "微软雅黑";}
+.data_time{float: right;width: 123px; height: 35px; text-align: center; line-height: 35px; font-size: 20px; color: #6b3cd3; font-family: "微软雅黑"; background-color: #fffbae; border-radius: 15px;}
+
+
+
+
+.footer{width:487px; height: 10%;}
+.submit{ width:400px; height:60px; margin-top: 25px; text-align: center; line-height: 60px; color: #000000; font-size:28px; letter-spacing: 5px;  background-color: #fff573; box-shadow: 0px 0px 2px 5px black; border-radius: 10px;}
